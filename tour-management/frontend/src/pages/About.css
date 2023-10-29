@@ -1,0 +1,7 @@
+body{
+    margin-top:20px;
+    /* background:#F0F8FF; */
+    }
+    .text-custom{
+    color: var(--primary-color) !important;
+    }

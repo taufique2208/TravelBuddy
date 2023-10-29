@@ -1,0 +1,79 @@
+.tour__content img{
+    width: 80%;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+    height: 300px;
+}
+
+.tour__info{
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    padding: 2rem;
+
+}
+
+.tour__info span{
+    display: flex;
+    align-items: center;
+gap: 0.5rem;
+font-style: 1rem;
+color: var(--text-color);}
+
+.tour__extra-details{
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+
+}
+
+.tour__info h5{
+    line-height: 30px;
+
+}
+
+.rating__group span{
+    font-style: 1rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer
+    ;
+}
+
+.tour__pointer h4{
+    margin-bottom: 3rem;
+}
+.review__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);
+
+}
+
+.review__input input{
+    widows: 100%;
+    padding: 0.5rem;
+    border: none;
+}
+.review__input input:focus{
+    outline: none;
+}
+
+.review__item{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review__item img{
+    width:3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
